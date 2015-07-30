@@ -1,11 +1,14 @@
 {
-	"manifest_version": 2,
-	"name":"Pipeline Mapping",
-	"description":"Images from the Pipeline Mapping project",
-	"version":"1.0",
-	"incognito": "split",
-  	"chrome_url_overrides": {
-   		"newtab": "blank.html"
-  	},
-  	"icons": { "128": "icon_128.png" }
+  "manifest_version": 3,
+  "name":"Grassroots Maps",
+  "description":"Images from the Public Lab's MapKnitter",
+  "version":"0.0.2",
+  "incognito": "split",
+  "chrome_url_overrides": {
+   "newtab": "blank.html"
+  },
+  "icons": { "128": "icon_128.png" },
+  "permissions": [
+    "http://mapknitter.org/"
+  ]
 }

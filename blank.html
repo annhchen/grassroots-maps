@@ -6,62 +6,19 @@
  -->
 <html>
   <head>
-    <title>Pipeline Mapping</title>
+    <title>Grassroots Maps</title>
     <style>
-    html { 
-      background: url(imgs/IMG_1349.jpg) no-repeat center center fixed; 
-      -webkit-background-size: cover;
-      -moz-background-size: cover;
-      -o-background-size: cover;
-      background-size: cover;
-    }
-    body {
-      font-family:Helvetica, sans-serif;
-      margin:0;
-      width:100%;
-      height:100%;
-      color: white;
-      font-weight:100;
-      font-size:16px;
-    }
-
-    * {
-      box-sizing: border-box;
-      margin: 0;
-    }
-
-    #info {
-      position:fixed;
-      bottom:0;
-      right:0;
-      left:0;
-      padding:20px;
-    }
-
-    #info h1 {
-      display:inline-block;
-      font-weight:100;
-      margin-right: 40px;
-    }
-    #info p {
-      display:inline-block;
-      font-size:16px;
-    }
-
-    #earth {
-      position:fixed;
-      bottom: 0;
-      padding: 20px;
-      right:0;
-      width: 240px;
-    }
-
-    #earth #local {
-      font-size:20px;
-    }
-
     </style>
-    <script src="chooseImage.js"></script>
+
+    <link href="bower_components/bootstrap-css/css/bootstrap.css" rel="stylesheet">
+    <link href="bower_components/fontawesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="grassroots-maps.css" rel="stylesheet">
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap-css/js/bootstrap.min.js"></script>
+    <script src="bower_components/jfeed/build/dist/jquery.jfeed.js"></script>
+    <script src="grassroots-maps.js"></script>
+
   </head>
   <body>
     <div id="info">
@@ -69,9 +26,8 @@
       <p>Imagery open source 2015, Public Lab, Pipeline Mapping</p>
     </div>
     <div id="earth">
-      <div id="local"></div>
-      <div id="province"></div>
-      <div id="country"></div>
+      <div id="title"></div>
+      <div id="description"></div>
     </div>
   </body>
 </html>

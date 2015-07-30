@@ -1,0 +1,13 @@
+{
+  "name": "jFeed",
+  "homepage": "https://github.com/mattmarcum/jFeed",
+  "_release": "c3981fa322",
+  "_resolution": {
+    "type": "branch",
+    "branch": "master",
+    "commit": "c3981fa3229339e9c0ac37e41f190aab52ab0638"
+  },
+  "_source": "git://github.com/mattmarcum/jFeed.git",
+  "_target": "*",
+  "_originalSource": "mattmarcum/jFeed"
+}
