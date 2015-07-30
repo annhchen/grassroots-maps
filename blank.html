@@ -1,0 +1,78 @@
+<!doctype html>
+<!--
+ This page is shown when the extension button is clicked, because the
+ "browser_action" field in manifest.json contains the "default_popup" key with
+ value "popup.html".
+ -->
+<html>
+  <head>
+    <title>Pipeline Mapping</title>
+    <style>
+    html { 
+      background: url(imgs/IMG_1349.jpg) no-repeat center center fixed; 
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+    }
+    body {
+      font-family:Helvetica, sans-serif;
+      margin:0;
+      width:100%;
+      height:100%;
+      color: white;
+      font-weight:100;
+      font-size:16px;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+    }
+
+    #info {
+      position:fixed;
+      bottom:0;
+      right:0;
+      left:0;
+      padding:20px;
+    }
+
+    #info h1 {
+      display:inline-block;
+      font-weight:100;
+      margin-right: 40px;
+    }
+    #info p {
+      display:inline-block;
+      font-size:16px;
+    }
+
+    #earth {
+      position:fixed;
+      bottom: 0;
+      padding: 20px;
+      right:0;
+      width: 240px;
+    }
+
+    #earth #local {
+      font-size:20px;
+    }
+
+    </style>
+    <script src="chooseImage.js"></script>
+  </head>
+  <body>
+    <div id="info">
+      <h1>Grassroots Maps</h1>
+      <p>Imagery open source 2015, Public Lab, Pipeline Mapping</p>
+    </div>
+    <div id="earth">
+      <div id="local"></div>
+      <div id="province"></div>
+      <div id="country"></div>
+    </div>
+  </body>
+</html>
+

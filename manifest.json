@@ -1,0 +1,11 @@
+{
+	"manifest_version": 2,
+	"name":"Pipeline Mapping",
+	"description":"Images from the Pipeline Mapping project",
+	"version":"1.0",
+	"incognito": "split",
+  	"chrome_url_overrides": {
+   		"newtab": "blank.html"
+  	},
+  	"icons": { "128": "icon_128.png" }
+}
