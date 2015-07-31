@@ -1,9 +1,10 @@
 html { 
-  background: url(imgs/placeholder.jpg) no-repeat center center fixed; 
+  background: url(data:image/gif;base64,R0lGODlhAQABAPAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw==) no-repeat center center fixed; 
   -webkit-background-size: cover;
   -moz-background-size: cover;
   -o-background-size: cover;
   background-size: cover;
+  transition: background 0.5s linear;
 }
 body {
   font-family:Helvetica, sans-serif;
@@ -47,6 +48,14 @@ body {
 }
 
 #earth #title {
-  font-size:20px;
+  font-size:30px;
 }
 
+#earth #title a {
+  color:white;
+}
+
+#earth #title a:hover {
+  color:#ccc;
+  text-decoration:none;
+}

@@ -5,7 +5,8 @@ jQuery(document).ready(function($) {
   var display = function(item) {
     var image = item.image.replace(/_small/,'');
     $('html').css('backgroundImage',"url(" + image + ")");
-    $('#title').html(item.title);
+    $('#title a').html(item.title);
+    $('#title a').attr('href',item.id);
     $('#description').html(item.description);
   }
 
