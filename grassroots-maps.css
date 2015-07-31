@@ -51,11 +51,11 @@ body {
   font-size:30px;
 }
 
-#earth #title a {
+a {
   color:white;
 }
 
-#earth #title a:hover {
+a:hover {
   color:#ccc;
   text-decoration:none;
 }
