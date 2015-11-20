@@ -5,7 +5,7 @@
   "version":"0.0.2",
   "incognito": "split",
   "chrome_url_overrides": {
-   "newtab": "blank.html"
+   "newtab": "index.html"
   },
   "icons": { "128": "icon_128.png" },
   "permissions": [

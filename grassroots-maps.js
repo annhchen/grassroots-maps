@@ -5,9 +5,12 @@ jQuery(document).ready(function($) {
   var display = function(item) {
     var image = item.image.replace(/_small/,'');
     $('html').css('backgroundImage',"url(" + image + ")");
-    $('#title').html(item.title);
+    $('#title a').html(item.title);
+    $('#title a').attr('href',item.id);
     $('#description').html(item.description);
   }
+
+  // prompt for a URL, with a default, first time, store in localStorage
 
   // consider switch to JSON! 
   // Or we need a way to create arbitrary image fields, plus lat/lon
