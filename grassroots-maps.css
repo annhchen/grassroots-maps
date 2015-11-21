@@ -7,13 +7,17 @@ html {
   transition: background 0.5s linear;
 }
 body {
-  font-family:Helvetica, sans-serif;
+  font-family: woodford_bourneregular, Helvetica, sans-serif;
   margin:0;
   width:100%;
   height:100%;
   color: white;
   font-weight:100;
-  font-size:16px;
+}
+
+h1 {
+  font-size:50px;
+  text-shadow: 0 1px 0 #000;
 }
 
 * {
@@ -36,7 +40,7 @@ body {
 }
 #info p {
   display:inline-block;
-  font-size:16px;
+  font-size:22px;
 }
 
 #earth {
@@ -48,7 +52,9 @@ body {
 }
 
 #earth #title {
-  font-size:30px;
+  font-size: 30px;
+  margin-bottom: 10px;
+  text-align: right;
 }
 
 a {
