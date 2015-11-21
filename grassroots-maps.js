@@ -7,7 +7,7 @@ jQuery(document).ready(function($) {
     $('html').css('backgroundImage',"url(" + image + ")");
     $('#title a').html(item.title);
     $('#title a').attr('href',item.id);
-    $('#description').html(item.description);
+    //$('#description').html(item.description);
   }
 
   // prompt for a URL, with a default, first time, store in localStorage
